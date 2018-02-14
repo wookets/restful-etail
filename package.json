@@ -1,0 +1,24 @@
+{
+  "name": "restful-retail",
+  "version": "0.0.1",
+  "description": "An example of a rest service that would return product information for an etailer. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wookets/restful-etail.git"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "express"
+  ],
+  "author": "sean.wesenberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wookets/restful-etail/issues"
+  },
+  "homepage": "https://github.com/wookets/restful-etail#readme"
+}
