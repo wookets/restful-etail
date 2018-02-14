@@ -2,9 +2,11 @@
   "name": "restful-retail",
   "version": "0.0.1",
   "description": "An example of a rest service that would return product information for an etailer. ",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "jest"
+    "start": "node src/server.js",
+    "test": "jest src",
+    "test:coverage": "jest src --coverage"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/wookets/restful-etail/issues"
   },
-  "homepage": "https://github.com/wookets/restful-etail#readme"
+  "homepage": "https://github.com/wookets/restful-etail#readme",
+  "dependencies": {
+    "isomorphic-fetch": "2.2.1",
+    "koa": "2.5.0",
+    "koa-router": "7.4.0",
+    "lokijs": "1.5.2"
+  },
+  "devDependencies": {
+    "fetch-mock": "6.0.0",
+    "jest": "22.3.0"
+  }
 }
