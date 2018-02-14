@@ -9,7 +9,7 @@ git clone git@github.com:wookets/restful-etail.git .
 npm i
 ```
 
-Make sure you are using the latest node.js. I would recommend using nvm to manager your node versions. 
+Make sure you are using the latest version of node and npm.
 
 
 # usage
@@ -28,3 +28,7 @@ npm test
 ```
 
 Tests are written using jest testing framework. Mocha is fine too, but jest has nice sandboxing. :) 
+
+# missing data
+
+It looks like few of the provided sample products are no longer valid. The server doesn't attempt to handle these errors quite yet, but logging and graceful fallback shouhld be added to handle these cases.
