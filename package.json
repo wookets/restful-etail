@@ -1,6 +1,6 @@
 {
   "name": "restful-retail",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An example of a rest service that would return product information for an etailer. ",
   "main": "src/server.js",
   "scripts": {
@@ -26,11 +26,14 @@
   "dependencies": {
     "isomorphic-fetch": "2.2.1",
     "koa": "2.5.0",
+    "koa-bodyparser": "4.2.0",
     "koa-router": "7.4.0",
+    "lodash": "4.17.5",
     "lokijs": "1.5.2"
   },
   "devDependencies": {
     "fetch-mock": "6.0.0",
-    "jest": "22.3.0"
+    "jest": "22.3.0",
+    "supertest": "3.0.0"
   }
 }

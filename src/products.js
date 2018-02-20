@@ -1,4 +1,5 @@
 
+const _ = require('lodash')
 const db = require('./db')
 
 /**
@@ -18,7 +19,7 @@ async function getProduct (id) { // the space between the function name and the 
 	// {"id":13860428,"name":"The Big Lebowski (Blu-ray) (Widescreen)","current_price":{"value": 13.49,"currency_code":"USD"}}
 	const result = {
 		id,
-		name: productDocument.product.item.product_description.title,
+		name: _.get(productDocument, 'product.item.product_description.title'),
 		current_price: {
 			value: priceDocument.price,
 			currency_code: priceDocument.currency_code
