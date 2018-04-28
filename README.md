@@ -1,5 +1,7 @@
 # restful-etail
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/wookets/restful-etail.svg)](https://greenkeeper.io/)
+
 A trivial example of a RESTful web-service using node.js and express. 
 
 # install 
