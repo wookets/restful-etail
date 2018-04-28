@@ -25,15 +25,15 @@
   "homepage": "https://github.com/wookets/restful-etail#readme",
   "dependencies": {
     "isomorphic-fetch": "2.2.1",
-    "koa": "2.5.0",
+    "koa": "2.5.1",
     "koa-bodyparser": "4.2.0",
     "koa-router": "7.4.0",
-    "lodash": "4.17.5",
-    "lokijs": "1.5.2"
+    "lodash": "4.17.10",
+    "lokijs": "1.5.3"
   },
   "devDependencies": {
-    "fetch-mock": "6.0.0",
-    "jest": "22.3.0",
+    "fetch-mock": "6.3.0",
+    "jest": "22.4.3",
     "supertest": "3.0.0"
   }
 }
