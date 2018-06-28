@@ -35,5 +35,8 @@
     "fetch-mock": "6.0.0",
     "jest": "22.3.0",
     "supertest": "3.0.0"
+  },
+  "engines": {
+	"node": "8.10.0"
   }
 }
